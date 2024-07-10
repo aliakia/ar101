@@ -1,0 +1,6 @@
+program proj6
+
+main:
+     trisb=0
+     portb=1
+     end.

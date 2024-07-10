@@ -1,0 +1,27 @@
+program p10
+
+dim x as byte
+sub function mask(dim num as byte)as byte
+select case num
+  case 0 result = $C0
+  case 1 result = $F9
+  case 2 result = $A4
+  case 3 result = $B0
+  case 4 result = $99
+  case 5 result = $92
+  case 6 result = $82
+  case 7 result = $F8
+  case 8 result = $80
+  case 9 result = $90
+end select
+end sub
+main:
+  trisb=0
+  x=0
+  do
+    portb=mask(x)
+    delay_ms(100)
+    x=x+1
+  loop until x = 10
+  goto main
+  end.

@@ -1,0 +1,30 @@
+[DeviceName]
+Value=P16F84A
+[DeviceClock]
+Value=8
+[MainUnit]
+Value=proj9.pbas
+[DeviceFlags]
+Count=2
+Value0=_WDT_OFF = $3FFB
+Value1=_HS_OSC = $3FFE
+[BuildSimDebug]
+Build=0
+SimDebug=1
+[ProjectFiles]
+Count=0
+[OtherFiles]
+Count=1
+Value0=D:\ps\p9\proj9.pbas
+Value1=D:\ps\quiz\quiz1.pbas
+Value2=D:\ps\p8\proj8.pbas
+[TabIndex]
+Value=0
+[SearchPath]
+Count=3
+Value0=C:\Program Files (x86)\Mikroelektronika\mikroBasic\Defs\
+Value1=D:\ps\p9\
+Value2=C:\Program Files (x86)\Mikroelektronika\mikroBasic\Uses\p16\
+Value3=C:\Users\al\Documents\school\al101\p9\
+[EEPROMinfo]
+isused=0

@@ -1,0 +1,19 @@
+program proj7
+
+main:
+     trisb=0
+     portb=0
+     trisa=1
+     porta=1
+     portb.0=0
+     if porta.0=1 then
+        goto run
+     end if
+     goto main
+run:
+    portb.0=0
+    if porta.0=0 then
+       goto main
+    end if
+    goto run
+    end.

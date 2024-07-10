@@ -1,0 +1,24 @@
+[DeviceName]
+Value=P16F84A
+[DeviceClock]
+Value=4
+[MainUnit]
+Value=exam.pbas
+[DeviceFlags]
+Count=0
+[BuildSimDebug]
+Build=0
+SimDebug=0
+[ProjectFiles]
+Count=0
+[OtherFiles]
+Count=0
+[TabIndex]
+Value=0
+[SearchPath]
+Count=3
+Value0=C:\Program Files (x86)\Mikroelektronika\mikroBasic\Defs\
+Value1=D:\ps\exam\
+Value2=C:\Program Files (x86)\Mikroelektronika\mikroBasic\Uses\p16\
+[EEPROMinfo]
+isused=0
